@@ -14,4 +14,4 @@ https://mcrouse42.github.io/react-portfolio2/
 
 ## Screenshot:
 
-<img src="https://github.com/Mcrouse42/budget-tracker/blob/master/screenshot/budget%20tracker%20screen%20shot.png" />
+<img src="https://github.com/Mcrouse42/react-portfolio2/blob/master/src/assets/images/Screenshot.png" />
