@@ -1,13 +1,18 @@
 import React from "react";
-import Projects from "../Projects";
+import Projects from "../Projects/index";
 
 function Portfolio() {
     
+    const projectsArray = {
+       
+   }
     
     return (
       <section>
         <div>
-          <h1>Portfolio</h1>
+          <h1>
+            <u> Portfolio </u>
+          </h1>
           <div>
             <Projects />
           </div>
