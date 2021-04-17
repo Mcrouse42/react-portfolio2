@@ -1,7 +1,13 @@
 import React from "react";
 
-function Footer() {
-  return <h1></h1>;
-}
+const Footer = () => {
+  return (
+    <footer className="w-100 mt-auto bg-secondary p-4">
+      <div className="container text-primary title">
+        <h5>&copy;2021 by Matthew Crouse</h5>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
