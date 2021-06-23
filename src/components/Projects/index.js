@@ -35,7 +35,6 @@ function Projects() {
     ];
     
     
-    
     return (
       <div className="flex-row">
         {projectsArray.map((project) => (
