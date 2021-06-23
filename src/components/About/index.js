@@ -14,6 +14,7 @@ function About() {
         alt="cover"
       /> */}
       <div>
+
         Full stack web developer with years of experience in the service
         industry. Looking to use customer service skills to build more user
         friendly apps. Recently earned a certificate in full stack web
@@ -24,6 +25,8 @@ function About() {
         mobile responsive MERN application to track game play for a very popular
         immersive role playing game. Aiming to use previously acquired knowledge
         to enhance the user experience while learning new skills along the way.
+
+
       </div>
     </section>
   );
