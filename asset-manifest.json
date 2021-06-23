@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio2/static/css/main.58760e9d.chunk.css",
-    "main.js": "/react-portfolio2/static/js/main.26cd9eaf.chunk.js",
-    "main.js.map": "/react-portfolio2/static/js/main.26cd9eaf.chunk.js.map",
+    "main.js": "/react-portfolio2/static/js/main.4bac2aa4.chunk.js",
+    "main.js.map": "/react-portfolio2/static/js/main.4bac2aa4.chunk.js.map",
     "runtime-main.js": "/react-portfolio2/static/js/runtime-main.ba577f72.js",
     "runtime-main.js.map": "/react-portfolio2/static/js/runtime-main.ba577f72.js.map",
     "static/js/2.ac28d615.chunk.js": "/react-portfolio2/static/js/2.ac28d615.chunk.js",
@@ -12,16 +12,15 @@
     "index.html": "/react-portfolio2/index.html",
     "static/css/main.58760e9d.chunk.css.map": "/react-portfolio2/static/css/main.58760e9d.chunk.css.map",
     "static/js/2.ac28d615.chunk.js.LICENSE.txt": "/react-portfolio2/static/js/2.ac28d615.chunk.js.LICENSE.txt",
-    "static/media/book.ed0ae69b.png": "/react-portfolio2/static/media/book.ed0ae69b.png",
     "static/media/developer.11aca43c.png": "/react-portfolio2/static/media/developer.11aca43c.png",
     "static/media/dungeon.bb01c4d5.png": "/react-portfolio2/static/media/dungeon.bb01c4d5.png",
     "static/media/movers.3e00b0b3.png": "/react-portfolio2/static/media/movers.3e00b0b3.png",
-    "static/media/weather.2a1974b3.png": "/react-portfolio2/static/media/weather.2a1974b3.png"
+    "static/media/resume.639a0c3e.png": "/react-portfolio2/static/media/resume.639a0c3e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba577f72.js",
     "static/js/2.ac28d615.chunk.js",
     "static/css/main.58760e9d.chunk.css",
-    "static/js/main.26cd9eaf.chunk.js"
+    "static/js/main.4bac2aa4.chunk.js"
   ]
 }
