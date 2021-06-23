@@ -2,7 +2,7 @@ import React from "react";
 
 import developer from "../../assets/images/developer.png";
 import movers from "../../assets/images/movers.png";
-import dungeon from "../../assets/images/dungeon.png";
+
 
 
 function Projects() {
