@@ -29,7 +29,7 @@ function Projects() {
         img: movers,
         title: "Movers Not Shakers",
         description:
-          "An application that allows you to view earthquakes near in proximity to your location.",
+          "An application that allows you to view earthquakes in proximity to your location.",
         github: "https://github.com/Mcrouse42/movers-not-shakers",
         deployed: "https://jbeedle19.github.io/movers-not-shakers/",
       },
@@ -42,13 +42,15 @@ function Projects() {
           <div>
                 <h1>{project.title}</h1>
                 <h4>{project.description}</h4>
-            <div className="flex-grid">
-              <img src={project.img}></img>
+                <div className="flex-grid">
+                <h5>
+                        <img src={project.img}></img>
+                </h5>
             </div>
-            <h5>
+            <h4>
               <a href={project.github}>Github</a>
               <a href={project.deployed}>Deployed</a>
-            </h5>
+            </h4>
           </div>
         ))}
       </div>
