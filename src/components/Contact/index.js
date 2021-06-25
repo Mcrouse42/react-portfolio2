@@ -41,7 +41,7 @@ function Contact() {
     <section>
       <h1 data-testid="h1tag">
         <u>
-          Contact m
+          Contact me
         </u>
         </h1>
       <form id="contact-form" onSubmit={handleSubmit}>
