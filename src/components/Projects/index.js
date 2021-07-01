@@ -37,15 +37,16 @@ function Projects() {
     
     
     return (
-      <div className="flex-row">
+      <div className="flex-grid">
         {projectsArray.map((project) => (
-          <div>
-                <h1>{project.title}</h1>
-                <h4>{project.description}</h4>
-                <div className="flex-grid">
-                <h5>
-                        <img src={project.img}></img>
-                </h5>
+          <div className="flex-grid">
+            <div>
+              <h1>{project.title}</h1>
+              <h4>{project.description}</h4>
+
+              <h5>
+                <img src={project.img}></img>
+              </h5>
             </div>
             <h4>
               <a href={project.github}>Github</a>
