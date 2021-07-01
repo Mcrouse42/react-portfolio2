@@ -1,5 +1,4 @@
 import React from "react";
-import Projects from "../Projects/index";
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -7,6 +6,17 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
+// import AddIcon from '@material-ui/icons/Add';
+// import Typography from '@material-ui/core/Typography';
+// import Button from '@material-ui/core/Button';
+// import Avatar from '@material-ui/core/Avatar';
+// import List from '@material-ui/core/List';
+// import ListItem from '@material-ui/core/ListItem';
+// import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+// import ListItemText from '@material-ui/core/ListItemText';
+// import DialogTitle from '@material-ui/core/DialogTitle';
+// import Dialog from '@material-ui/core/Dialog';
+// import PropTypes from 'prop-types';
 
 import developer from "../../assets/images/developer.png";
 import movers from "../../assets/images/movers.png";
@@ -29,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
       'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
   },
   icon: {
-    // color: 'rgba(255, 255, 255, 0.54)',
+    color: 'rgba(255, 255, 255, 0.54)',
   },
 }));
 
@@ -74,8 +84,15 @@ export default function Portfolio() {
             <img src={project.img}></img>
             <GridListTileBar
               title={project.title}
-              
-             
+              actionIcon={
+                <IconButton
+                  aria-label={`info about`}
+                  className={classes.icon}
+                  // onClick={handleClickOpen}
+                >
+                  <InfoIcon></InfoIcon>
+                </IconButton>
+              }
             />
           </GridListTile>
         ))}
