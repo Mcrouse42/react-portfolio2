@@ -43,6 +43,20 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
+// function SimpleDialog(props) {
+//   const classes = useStyles();
+//   const { onClose, selectedValue, open } = props;
+
+//   const handleClose = () => {
+//     onClose(selectedValue);
+//   };
+
+//   const handleListItemClick = (value) => {
+//     onClose(value);
+//   };
+
   const projectsArray = [
     {
       img: dungeon,
@@ -70,6 +84,8 @@ const useStyles = makeStyles((theme) => ({
     },
   ];
 
+  
+
 export default function Portfolio() {
   const classes = useStyles();
 
@@ -88,15 +104,16 @@ export default function Portfolio() {
                 <IconButton
                   aria-label={`info about`}
                   className={classes.icon}
-                  // onClick={handleClickOpen}
                 >
                   <InfoIcon></InfoIcon>
                 </IconButton>
               }
             />
+            
           </GridListTile>
         ))}
       </GridList>
+      
     </div>
   );
 }
